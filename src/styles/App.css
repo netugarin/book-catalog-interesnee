@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    width: 800px;
+}
+
+.book {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.title {
+    margin: 20px;
+    text-align: center;
+}
+
+.btn-add {
+    margin: 1rem 0 1rem 0;
+}
+
+.spinner {
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+}
